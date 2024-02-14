@@ -1,10 +1,12 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link>
+    <div>
+    <div id="nav">
+      <router-link id="logo-url" to="/">
+        <img id="logo" :src="logo" :alt="alt">
+      </router-link>
+      <router-link to="/">Fazer Pedido</router-link>
       <router-link to="/pedidos">Pedidos</router-link>
-    <router-link to="/" id="logo-url">
-      <img :src="logo" :alt="alt" id="logo">
-    </router-link>
+    </div>
   </div>
 </template>
 
@@ -18,28 +20,33 @@ export default {
 <style scoped>
   #nav {
     background-color: #222;
-    border-bottom: 4px solid #111;
-    padding: 15px 50px;
+    border-bottom: 10px solid #111;
+    padding: 15px;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     margin-right: 10px;
     margin-left: 10px;
-    border-radius: 1%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
   }
 
-   #logo-url {
-    margin-left: auto;
+  #nav #logo-url {
+    margin: auto;
+    margin-left: 40px;
   }
 
   #logo {    
     width: 40px;
     height: 40px;
+    margin-right: -20px;
   }
 
   #nav a {
     color: #FCBA03;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 20px;
+    font-size: 20px;
   }
 
   #nav a:hover {
