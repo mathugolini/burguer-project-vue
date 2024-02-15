@@ -3,63 +3,59 @@
     "paes": [
       {
         "id": 1,
-        "tipo": "Italiano Branco"
+        "tipo": "Americano"
       },
       {
         "id": 2,
-        "tipo": "3 Queijos"
+        "tipo": "Italiano"
       },
       {
         "id": 3,
-        "tipo": "Parmesão e Orégano"
+        "tipo": "Brioche"
       },
       {
         "id": 4,
-        "tipo": "Integral"
+        "tipo": "Austaliano"
       }
     ],
-    "carnes": [
+    "pontoCarne": [
       {
         "id": 1,
-        "tipo": "Maminha"
+        "tipo": "Mal Passado"
       },
       {
         "id": 2,
-        "tipo": "Alcatra"
+        "tipo": "Ao Ponto"
       },
       {
         "id": 3,
-        "tipo": "Picanha"
+        "tipo": "Bem Passado"
+      }
+    ],
+    "toppings": [
+      {
+        "id": 1,
+        "tipo": "Queijo Extra"
+      },
+      {
+        "id": 2,
+        "tipo": "Molho BBQ"
+      },
+      {
+        "id": 3,
+        "tipo": "Molho Ranch"
       },
       {
         "id": 4,
-        "tipo": "Veggie burger"
-      }
-    ],
-    "opcionais": [
-      {
-        "id": 1,
         "tipo": "Bacon"
       },
       {
-        "id": 2,
-        "tipo": "Cheddar"
+        "id": 5,
+        "tipo": "Cebola Crispy"
       },
       {
-        "id": 3,
-        "tipo": "Salame"
-      },
-      {
-        "id": 4,
-        "tipo": "Tomate"
-      },
-      {
-        "id": 4,
-        "tipo": "Cebola roxa"
-      },
-      {
-        "id": 4,
-        "tipo": "Pepino"
+        "id": 6,
+        "tipo": "Picles"
       }
     ]
   },
@@ -79,27 +75,154 @@
   ],
   "burgers": [
     {
-      "nome": "Matheus Battisti",
-      "carne": "Picanha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Salame",
-        "Cebola roxa"
+      "id": "c2a1",
+      "nome": "Matheus",
+      "pao": "Americano",
+      "pontoDaCarne": "Mal Passado",
+      "topping": [
+        "Queijo Extra"
       ],
-      "status": "Finalizado",
-      "id": 1
+      "status": "Solicitado"
     },
     {
-      "nome": "João Coelho",
-      "carne": "Maminha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Salame",
-        "Cebola roxa"
+      "id": "c07f",
+      "nome": "Juliano",
+      "pao": "Americano",
+      "pontoDaCarne": "Mal Passado",
+      "topping": [
+        "Queijo Extra",
+        "Molho Ranch",
+        "Picles"
       ],
-      "status": "Solicitado",
-      "id": 4
+      "status": "Solicitado"
+    },
+    {
+      "id": "a25c",
+      "nome": "aaa",
+      "pontoDaCarne": "Ao Ponto",
+      "pao": "Italiano",
+      "topping": [
+        "Queijo Extra"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "0af1",
+      "nome": "aaa",
+      "pontoDaCarne": "Mal Passado",
+      "pao": "Italiano",
+      "topping": [
+        "Queijo Extra"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "ae8f",
+      "nome": "aaa",
+      "topping": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "8bbd",
+      "nome": "qqq",
+      "pontoDaCarne": "",
+      "pao": "",
+      "topping": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "452b",
+      "nome": "",
+      "pontoDaCarne": "",
+      "pao": "",
+      "topping": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "c3e3",
+      "nome": "bbb",
+      "pontoDaCarne": "Mal Passado",
+      "pao": "Italiano",
+      "topping": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "0a3a",
+      "nome": "ccc",
+      "pontoDaCarne": "Bem Passado",
+      "pao": "Italiano",
+      "topping": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "3bd7",
+      "nome": "zz",
+      "pontoDaCarne": "Mal Passado",
+      "pao": "Italiano",
+      "topping": [
+        "Molho BBQ"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "3974",
+      "nome": "zzz",
+      "pontoDaCarne": "Mal Passado",
+      "pao": "Brioche",
+      "topping": [
+        "Queijo Extra"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "480e",
+      "nome": "zzz",
+      "pontoDaCarne": "Mal Passado",
+      "pao": "Italiano",
+      "topping": [
+        "Queijo Extra"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "8e58",
+      "nome": "bnbnb",
+      "pontoDaCarne": "Ao Ponto",
+      "pao": "Americano",
+      "topping": [
+        "Molho BBQ"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "c137",
+      "nome": "qwe",
+      "pontoDaCarne": "Bem Passado",
+      "pao": "Italiano",
+      "topping": [
+        "Queijo Extra"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "4be9",
+      "nome": "Marcus",
+      "pontoDaCarne": "Ao Ponto",
+      "pao": "Brioche",
+      "topping": [
+        "Molho Ranch"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "1268",
+      "nome": "Maria",
+      "pontoDaCarne": "Mal Passado",
+      "pao": "Americano",
+      "topping": [
+        "Bacon"
+      ],
+      "status": "Solicitado"
     }
   ]
 }

@@ -38,9 +38,10 @@ export default {
   }
 
   h1 {
-    text-align: right;
+    text-align: left;
     font-size: 42px;
-    margin: bottom 30px;
+    font-weight: 900;
+    margin-bottom: 30px;
     color: #222;
 
   }
