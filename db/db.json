@@ -57,6 +57,38 @@
         "id": 6,
         "tipo": "Picles"
       }
+    ],
+    "batatas": [
+      {
+        "id": 1,
+        "tipo": "Batata Frita"
+      },
+      {
+        "id": 2,
+        "tipo": "Batata Rústica"
+      },
+      {
+        "id": 3,
+        "tipo": "Não quero Batata"
+      }
+    ],
+    "bebidas": [
+      {
+        "id": 1,
+        "tipo": "Coca-Cola"
+      },
+      {
+        "id": 2,
+        "tipo": "Sprite"
+      },
+      {
+        "id": 3,
+        "tipo": "Burger-Drink"
+      },
+      {
+        "id": 4,
+        "tipo": "Não quero Bebida"
+      }
     ]
   },
   "status": [
@@ -75,153 +107,55 @@
   ],
   "burgers": [
     {
-      "id": "c2a1",
-      "nome": "Matheus",
-      "pao": "Americano",
-      "pontoDaCarne": "Mal Passado",
-      "topping": [
-        "Queijo Extra"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "c07f",
-      "nome": "Juliano",
-      "pao": "Americano",
-      "pontoDaCarne": "Mal Passado",
-      "topping": [
-        "Queijo Extra",
-        "Molho Ranch",
-        "Picles"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "a25c",
-      "nome": "aaa",
-      "pontoDaCarne": "Ao Ponto",
-      "pao": "Italiano",
-      "topping": [
-        "Queijo Extra"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "0af1",
-      "nome": "aaa",
-      "pontoDaCarne": "Mal Passado",
-      "pao": "Italiano",
-      "topping": [
-        "Queijo Extra"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "ae8f",
-      "nome": "aaa",
-      "topping": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "8bbd",
-      "nome": "qqq",
-      "pontoDaCarne": "",
-      "pao": "",
-      "topping": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "452b",
-      "nome": "",
-      "pontoDaCarne": "",
-      "pao": "",
-      "topping": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "c3e3",
-      "nome": "bbb",
-      "pontoDaCarne": "Mal Passado",
-      "pao": "Italiano",
-      "topping": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "0a3a",
-      "nome": "ccc",
-      "pontoDaCarne": "Bem Passado",
-      "pao": "Italiano",
-      "topping": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "3bd7",
-      "nome": "zz",
-      "pontoDaCarne": "Mal Passado",
-      "pao": "Italiano",
-      "topping": [
-        "Molho BBQ"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "3974",
-      "nome": "zzz",
-      "pontoDaCarne": "Mal Passado",
-      "pao": "Brioche",
-      "topping": [
-        "Queijo Extra"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "480e",
-      "nome": "zzz",
-      "pontoDaCarne": "Mal Passado",
-      "pao": "Italiano",
-      "topping": [
-        "Queijo Extra"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "8e58",
-      "nome": "bnbnb",
+      "id": "1c78",
+      "nome": "matheus",
       "pontoDaCarne": "Ao Ponto",
       "pao": "Americano",
       "topping": [
-        "Molho BBQ"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "c137",
-      "nome": "qwe",
-      "pontoDaCarne": "Bem Passado",
-      "pao": "Italiano",
-      "topping": [
-        "Queijo Extra"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "4be9",
-      "nome": "Marcus",
-      "pontoDaCarne": "Ao Ponto",
-      "pao": "Brioche",
-      "topping": [
-        "Molho Ranch"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "1268",
-      "nome": "Maria",
-      "pontoDaCarne": "Mal Passado",
-      "pao": "Americano",
-      "topping": [
+        "Molho BBQ",
         "Bacon"
       ],
+      "batata": "Batata Rústica",
+      "bebidas": [
+        {
+          "id": 1,
+          "tipo": "Coca-Cola"
+        },
+        {
+          "id": 2,
+          "tipo": "Sprite"
+        },
+        {
+          "id": 3,
+          "tipo": "Burger-Drink"
+        },
+        {
+          "id": 4,
+          "tipo": "Não quero Bebida"
+        }
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "f797",
+      "nome": "Marcus",
+      "pontoDaCarne": "Mal Passado",
+      "pao": "Americano",
+      "topping": [
+        "Queijo Extra"
+      ],
+      "batata": "Batata Frita",
+      "bebida": "Coca-Cola",
+      "status": "Solicitado"
+    },
+    {
+      "id": "121b",
+      "nome": null,
+      "pontoDaCarne": null,
+      "pao": null,
+      "topping": [],
+      "batata": null,
+      "bebida": null,
       "status": "Solicitado"
     }
   ]

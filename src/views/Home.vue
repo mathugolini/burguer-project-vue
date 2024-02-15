@@ -1,7 +1,7 @@
 <template>
 <BannerVue />
 <div class="main-container">
-  <h1>Monte seu Burger</h1>
+  <h1>MONTE SEU BURGER</h1>
   <BurgerForm />
 </div>
 </template>

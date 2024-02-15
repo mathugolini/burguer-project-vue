@@ -23,7 +23,6 @@ export default {
 }
 </script>
 
-
 <style>
   * {
     font-family: Helvetica;
@@ -38,10 +37,10 @@ export default {
   }
 
   h1 {
-    text-align: left;
+    text-align: center;
     font-size: 42px;
     font-weight: 900;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     color: #222;
 
   }
