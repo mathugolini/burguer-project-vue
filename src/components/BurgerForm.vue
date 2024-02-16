@@ -1,6 +1,7 @@
 <template>
+  <Message :msg="msg" v-show="msg" />
   <div>
-    <Message :msg="msg" v-show="msg" />
+    
     <div class="form-container">
      
         <form id="burger-form" @submit="createBurger">
@@ -47,11 +48,12 @@
               <span>{{ var_topping.tipo }}</span>
             </div>
           </div>
-        </form>
-        
-        <div class="input-container">
+          <div class="input-container">
             <input type="submit" class="submit-btn" value="Criar Burger!">
           </div>
+        </form>
+        
+       
       </div>
       
  

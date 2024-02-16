@@ -93,70 +93,17 @@
   },
   "status": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "Solicitado"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "Em produção"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "Finalizado"
     }
   ],
-  "burgers": [
-    {
-      "id": "1c78",
-      "nome": "matheus",
-      "pontoDaCarne": "Ao Ponto",
-      "pao": "Americano",
-      "topping": [
-        "Molho BBQ",
-        "Bacon"
-      ],
-      "batata": "Batata Rústica",
-      "bebidas": [
-        {
-          "id": 1,
-          "tipo": "Coca-Cola"
-        },
-        {
-          "id": 2,
-          "tipo": "Sprite"
-        },
-        {
-          "id": 3,
-          "tipo": "Burger-Drink"
-        },
-        {
-          "id": 4,
-          "tipo": "Não quero Bebida"
-        }
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "f797",
-      "nome": "Marcus",
-      "pontoDaCarne": "Mal Passado",
-      "pao": "Americano",
-      "topping": [
-        "Queijo Extra"
-      ],
-      "batata": "Batata Frita",
-      "bebida": "Coca-Cola",
-      "status": "Solicitado"
-    },
-    {
-      "id": "121b",
-      "nome": null,
-      "pontoDaCarne": null,
-      "pao": null,
-      "topping": [],
-      "batata": null,
-      "bebida": null,
-      "status": "Solicitado"
-    }
-  ]
+  "burgers": []
 }
