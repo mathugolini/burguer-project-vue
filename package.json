@@ -9,6 +9,8 @@
     "backend": "json-server --watch db/db.json"
   },
   "dependencies": {
+    "@aws-amplify/ui-vue": "^4.2.1",
+    "aws-amplify": "^6.0.16",
     "core-js": "^3.8.3",
     "json-serve": "^0.1.0",
     "json-server": "^1.0.0-alpha.23",

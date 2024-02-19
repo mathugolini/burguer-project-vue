@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-burguerproject-dev-111407-authRole",
+      "UnauthRoleArn": "arn:aws:iam::200484323323:role/amplify-burguerproject-dev-111407-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::200484323323:role/amplify-burguerproject-dev-111407-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-burguerproject-dev-111407-deployment",
+      "UnauthRoleName": "amplify-burguerproject-dev-111407-unauthRole",
+      "StackName": "amplify-burguerproject-dev-111407",
+      "StackId": "arn:aws:cloudformation:us-east-1:200484323323:stack/amplify-burguerproject-dev-111407/282fea40-cf31-11ee-b043-126b0e1cc4a5",
+      "AmplifyAppId": "drn5ry8zgslue"
+    },
+    "categories": {
+      "auth": {
+        "burguerproject6981e128": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "drn5ry8zgslue",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
+import Amplify from "../views/Amplify.vue";
 
 const routes = [
   {
@@ -7,11 +8,18 @@ const routes = [
     name: "HomeComponent",
     component: Home,
   },
+  
+ // {
+ //   path: "/pedidos",
+ //   name: "PedidosComponent",
+ //   component: () =>
+ //     import(/* webpackChunkName: "pedidos" */ "../views/Pedidos.vue"),
+ // },
+//
   {
     path: "/pedidos",
-    name: "PedidosComponent",
-    component: () =>
-      import(/* webpackChunkName: "pedidos" */ "../views/Pedidos.vue"),
+    name: "AmplifyComponent",
+    component: Amplify,
   },
 ];
 

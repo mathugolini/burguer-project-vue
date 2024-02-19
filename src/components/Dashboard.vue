@@ -1,4 +1,5 @@
 <template>
+  <Message :msg="msg" v-show="msg"/>
   <div id="burger-table" v-if="burgers">
     <div>
       <div id="burger-table-heading">
@@ -45,13 +46,19 @@
 </template>
 
 <script>
+import Message from './Message.vue';
+
 export default {
   name: "DashboardComponent",
+  components: {
+    Message
+  },
   data() {
     return {
       burgers: null,
       burger_id: null,
-      status: []
+      status: [],
+      msg: null
     }
   },
   methods: {
@@ -82,6 +89,13 @@ export default {
       });
 
       const res = await req.json()
+
+      // colocar uma msg de sistema
+      this.msg = `Pedido N° ${res.id} removido com sucesso`;
+
+      // limpar msg
+      setTimeout(() => this.msg = "", 3000);
+
       console.log(res);
 
       this.getPedidos()
@@ -100,6 +114,12 @@ export default {
       });
 
       const res = await req.json()
+
+      // colocar uma msg de sistema
+      this.msg = `Pedido N° ${res.id} atualizado com sucesso para ${res.status}`;
+
+      // limpar msg
+      setTimeout(() => this.msg = "", 3000);
 
       console.log(res)
 

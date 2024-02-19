@@ -40,7 +40,7 @@ export default {
     text-align: center;
     font-size: 42px;
     font-weight: 900;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     color: #222;
 
   }

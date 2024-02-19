@@ -52,11 +52,7 @@
             <input type="submit" class="submit-btn" value="Criar Burger!">
           </div>
         </form>
-        
-       
       </div>
-      
- 
     </div>
 </template>
 
